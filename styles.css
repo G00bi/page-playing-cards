@@ -18,9 +18,12 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-   
 }
 
+p{
+ display: flex;
+ justify-content: flex-start;
+}
 
 img {
     width: 100%;
@@ -30,14 +33,20 @@ img {
     justify-content: center;
     align-items: center;
     background-size: cover;
-    
-
-    
 }
 
 
 .left{
-    align-self: flex-start;
+    position: absolute;
+    background-color: #C4C4C4;
+    border: solid black;
+    border-radius: 30%;
+    font: 15px bold ;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-bottom: 0;
+    padding-top: 0 ;
+
 }
 
 .middle{
