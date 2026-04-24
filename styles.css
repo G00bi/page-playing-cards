@@ -1,17 +1,12 @@
-body{
-    background-color: #fbc7c9;
-   
-}
 
-#playing-cards{
+#pokemon-cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    border: 5px solid blue;
 }
 
-.card{
+.card {
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -27,6 +22,12 @@ body{
     justify-content: space-between;
     text-align: center;
    
+}
+
+.jigglypuff{
+    content: " ";
+    background-image: url(light-pink-bg.jpg);
+    background-size: cover;
 }
 
 .left{
