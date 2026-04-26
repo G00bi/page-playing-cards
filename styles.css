@@ -8,6 +8,7 @@
 }
 
 .card {
+    position: relative;
     background-color:#C4C4C4;
     border-radius: 5%;
     box-shadow: 2px 2px 2px #666666;
@@ -17,12 +18,6 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    text-align: center;
-}
-
-p{
- display: flex;
- justify-content: flex-start;
 }
 
 img {
@@ -35,26 +30,26 @@ img {
     background-size: cover;
 }
 
-
-.left{
+.card-header{
     position: absolute;
-    background-color: #C4C4C4;
-    border: solid black;
-    border-radius: 30%;
-    font: 15px bold ;
-    box-sizing: border-box;
-    padding: 5px;
-    padding-bottom: 0;
-    padding-top: 0 ;
-
-}
-
-.middle{
     display: flex;
-    flex-direction: column;
-    align-self: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.right{
-    align-self: flex-end;
+h2{
+    margin: 0;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   
+}
+
+
+.right-image{
+    width: 10%;
+    height: 10%;
+    background-size: cover;
 }
