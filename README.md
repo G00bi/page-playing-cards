@@ -19,8 +19,8 @@ My main goal is to gain practical experience with layout techniques by fulfillin
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3 (Flexbox)
+* HTML
+* CSS
 
 ---
 
