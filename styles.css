@@ -71,7 +71,9 @@ h2 {
 
 .main-picture {
   position: absolute;
-  top: 80px;
+  top: 65px;
+  left: 20px;
+  right: 20px;
   overflow: hidden;
   display: flex;
   justify-content: center;
