@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
 
-  background-color: #c4c4c4;
+  background-color:  #ffe659;
   border-radius: 5%;
   box-shadow: 2px 2px 2px #666666;
   width: 250px;
@@ -41,7 +41,7 @@
 
   background: linear-gradient(
     to bottom,
-    rgba(201, 55, 115, 0.8),
+    rgba(201, 55, 115, 0.5),
     rgba(0, 0, 0, 0)
   );
 
@@ -83,11 +83,11 @@ h2 {
 .main-picture img {
   width: 200px;
   object-fit: cover;
-  border: 6px solid #c4c4c4;
+  border: 6px solid  #ffe659;
   border-radius: 5%;
 }
 
-.first-hability {
+.first-ability {
   position: absolute;
   bottom: 90px;
   left: 30px;
@@ -100,13 +100,13 @@ h2 {
 
 }
 
-.first-hability img {
+.first-ability img {
   width: 17px;
   height: 17px;
   object-fit: contain;
 }
 
-.second-hability{
+.second-ability{
   position: absolute;
   bottom: 45px;
   left: 30px;
@@ -118,7 +118,7 @@ h2 {
   font-weight: bold;
 }
 
-.second-hability .images {
+.second-ability .images {
   width: 17px;
   height: 17px;
   display: flex;
