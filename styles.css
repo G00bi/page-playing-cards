@@ -185,3 +185,19 @@ h2 {
   height: 16px;
   object-fit: contain;
 }
+
+/*From here: Piplup code, trying to improve the code*/
+
+.background{
+  position:absolute;
+  margin: 0 0 0 0;
+  border-radius: 5%;
+ 
+  background-color: aqua; 
+}
+
+.top-card{
+
+  display: flex;
+  justify-content: flex-start;
+}
